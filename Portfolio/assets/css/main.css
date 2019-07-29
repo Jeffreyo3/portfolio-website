@@ -871,6 +871,14 @@ input, select, textarea {
 
 /* Image */
 
+.rotateimg90 {
+	-webkit-transform:rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+  }
+
 	.image {
 		display: inline-block;
 		position: relative;
@@ -2195,7 +2203,7 @@ input, select, textarea {
 		}
 
 			.panel > *.color0 {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #B1A27C  20%, #9E73BF 60%, #BDBDBD);
 				background-size: 128px 128px, auto;
 			}
 
@@ -3687,3 +3695,4 @@ input, select, textarea {
 			}
 
 	}
+
