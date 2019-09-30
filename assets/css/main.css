@@ -1105,6 +1105,10 @@ input, select, textarea {
 
 /* Actions */
 
+.actions{
+	margin: 5% auto;
+}
+
 	ul.actions {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2203,7 +2207,7 @@ input, select, textarea {
 		}
 
 			.panel > *.color0 {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #B1A27C  20%, #9E73BF 60%, #BDBDBD);
+				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgb(128, 128, 128)  20%, #9E73BF 60%, #BDBDBD);
 				background-size: 128px 128px, auto;
 			}
 
@@ -3696,3 +3700,14 @@ input, select, textarea {
 
 	}
 
+.projectBox a {
+	margin: auto 3%;
+}
+
+.projectBox p {
+	margin: 1% 0;
+}
+
+.spacer {
+	margin: .25% 0;
+}
